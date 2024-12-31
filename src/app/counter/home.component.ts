@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { Observable } from 'rxjs';
-import { AppState } from '../store/app.state';
-import { counterSelector } from '../store/counter/counter.selector';
+import { AppState } from '../state/app.state';
+import { counterSelector } from '../state/counter/counter.selector';
 import { Store } from '@ngrx/store';
-import * as CounterActions from "../store/counter/counter.action";
+import * as CounterActions from "../state/counter/counter.action";
 
 @Component({
   selector: 'app-home',

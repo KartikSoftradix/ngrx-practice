@@ -1,0 +1,8 @@
+<div class="wrapper">
+  <span>{{count$ | async}}</span>
+  <div class="buttons-wrapper">
+    <button type="button" (click)="stateChange('increment')">Increment</button>
+    <button type="button" (click)="stateChange('decrement')" >Decrement</button>
+    <button type="button" (click)="stateChange('reset')">Reset</button>
+  </div>
+</div>
